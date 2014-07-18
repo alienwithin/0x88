@@ -1,0 +1,14 @@
+1. Сначала запускаем GENERATE.bat
+2. компилируем проект(CTRL+F9), должен появится файл jpg_gen.bin
+3. переименовываем в jpg_gen.jpg
+
+файлы: 
+
+hello.exe    -  программа, которая запустится при открытии jpg_gen.jpg
+lucky.jpg    -  исходный jpg-файл
+jpg_gen.asm  -  генератор
+FASMW.EXE    -  компилятор для asm файлов
+
+Уязвимы: SP0, SP1 RUS
+
+  [] ----------------- http://skides.net.ru/ [ SkiDes DiGitaL Security ] -----------[]

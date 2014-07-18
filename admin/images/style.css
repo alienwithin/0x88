@@ -1,0 +1,46 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #0f1622; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #7AA0B8; SCROLLBAR-SHADOW-COLOR: #7AA0B8; COLOR: white; SCROLLBAR-3DLIGHT-COLOR: #0f1622; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #7AA0B8; SCROLLBAR-DARKSHADOW-COLOR: #000022
+}
+HR {
+	COLOR: snow
+}
+
+a   {
+color: #000000;
+text-decoration:none;
+font-family: Tahoma;
+font-size: 11px;
+font-weight: bold;
+     }
+a:hover   {
+color: black;
+font-family: Tahoma;
+text-decoration: line-through;
+font-weight:bold;
+font-size: 11px;
+          }
+td.up{
+color: #747474;
+font-family: Verdana;
+font-weight: normal;
+font-size: 12px;
+}
+.pagetitle {
+font-family: Arial, Helvetica, sans-serif; 
+color: #F7F7F7; 
+text-decoration: none; 
+font-size: 12px
+}
+.pagetitle2 {
+font-family: Arial, Helvetica, sans-serif; 
+color: #F7F7F7; 
+text-decoration: none; 
+font-size: 10px
+}
+.inputbox3 {font-size:11px; font-family:Verdana, Arial, Helvetica, sans-serif; background:#ffffff; color:#000000; width:180px; height:20px; border:1px solid #000000; font-weight:normal}
+.inputbox2 {font-size:11px; font-family:Verdana, Arial, Helvetica, sans-serif; background:#7AA0B8; color:#000000; width:50px; height:20px; border:1px solid #000000; font-weight:normal}
+.inputboxchek {font-size:11px; font-family:Verdana, Arial, Helvetica, sans-serif; background:#ffffff; color:#000000; width:20px; height:20px; border:1px solid #000000; font-weight:normal}
+.button1 {font-size:11px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; background:#548AA3; border:1px outset #548AA3; cursor:hand; color:white; width:70px; height:19px}
+
+b {  font-weight: bold}
+table {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #F7F7F7}

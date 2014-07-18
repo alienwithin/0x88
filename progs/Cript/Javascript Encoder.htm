@@ -1,0 +1,118 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<meta name="Author" content="Brian Gosselin">
+<title>Javascript Encoder</title>
+
+<link href="encdec.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+
+table{
+background-color:#BBE6FF;
+border-width:2px;
+border-style:outset;
+border-color:gray;
+}
+
+.outp{
+background-color:#EAEAEA;
+width:100%;
+text-align:left;
+border-color:lightgrey;
+border-style:outset;
+border-width:2px;
+font-family:verdana;
+font-size:8pt;
+font-weight:normal;
+}
+
+</style>
+
+
+</head>
+<body>
+
+<center><h2>Javascript Encoder</h2></center>
+<br>
+This script will encode javascript to make it more difficult for people to read and/or steal. Just follow the directions below.<br>
+
+<center>
+<form name="fa">
+<br>
+<table cellpadding="5" cellspacing=0 border=0 width="575">
+<tr align="left"><td class="tblc" colspan="2">
+<ol><li>Enter your javascript (no HTML) in the box below.
+<li>Select the <b>Code Key</b> you want.
+<li>Press the <b>Encode</b> button.
+</ol></td></tr>
+<tr valign="top" align="center">
+<td class="tblc" width="500">
+<textarea id="f2" cols=80 rows=15 wrap="off">
+<SCRIPT LANGUAGE="javascript">
+// SAMPLE SCRIPT #1
+alert('Hello World');
+</SCRIPT>
+
+<SCRIPT LANGUAGE="javascript" SRC="your_js_file.js">
+// SAMPLE SCRIPT #2 - CALLING AN EXTERNAL JS FILE
+</SCRIPT>
+</textarea>
+</td>
+<td>
+<br><br>
+Code Key:<br>
+<select name="et" onchange="encN=this.selectedIndex+1">
+<option selected>1
+<option>2
+<option>3
+<option>4
+<option>5
+</select>
+<br><br>
+<input type="button" value="Encode" onclick="writeOut()"><br><br>
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+<br><br>
+</center>
+
+<ol>
+<li>Add your javascript code to the textarea box above.
+<li>Select the "Code Key" you wish to use.
+<li>Click the "Encode" button.
+<li>Select all the text that appears in the box below and paste it into your HTML page where you would want the script to be. The pasted code should appear all on one line in your editor, unless you have word-wrap on. Do <b>not</b> add any linebreaks (by pressing "Enter") or the script may not work.
+</ol>
+<a href="javascript:document.fa.output.focus();document.fa.output.select();">Select All...</a><br>
+<textarea name="output" class="outp" rows="15">
+Encoded output will be displayed here...
+</textarea>
+
+</form>
+
+
+<script language="javascript">
+
+var encN=1;
+
+// ENCODES, IN UNICODE FORMAT, ALL TEXT AND THEN ESCAPES THE OUTPUT
+function encodeTxt(s){
+s=escape(s);
+var ta=new Array();
+for(i=0;i<s.length;i++)ta[i]=s.charCodeAt(i)+encN;
+return ""+escape(eval("String.fromCharCode("+ta+")"))+encN;
+}
+
+
+// WRITES THE DECODED OUTPUT, ALONG WITH THE ESCAPED DECODER FUNCTION TO THE DIV
+function writeOut(){
+document.forms["fa"].output.value="<"+"script language=javascript"+">document.write(unescape('%3C%73%63%72%69%70%74%20%6C%61%6E%67%75%61%67%65%3D%22%6A%61%76%61%73%63%72%69%70%74%22%3E%66%75%6E%63%74%69%6F%6E%20%64%46%28%73%29%7B%76%61%72%20%73%31%3D%75%6E%65%73%63%61%70%65%28%73%2E%73%75%62%73%74%72%28%30%2C%73%2E%6C%65%6E%67%74%68%2D%31%29%29%3B%20%76%61%72%20%74%3D%27%27%3B%66%6F%72%28%69%3D%30%3B%69%3C%73%31%2E%6C%65%6E%67%74%68%3B%69%2B%2B%29%74%2B%3D%53%74%72%69%6E%67%2E%66%72%6F%6D%43%68%61%72%43%6F%64%65%28%73%31%2E%63%68%61%72%43%6F%64%65%41%74%28%69%29%2D%73%2E%73%75%62%73%74%72%28%73%2E%6C%65%6E%67%74%68%2D%31%2C%31%29%29%3B%64%6F%63%75%6D%65%6E%74%2E%77%72%69%74%65%28%75%6E%65%73%63%61%70%65%28%74%29%29%3B%7D%3C%2F%73%63%72%69%70%74%3E'));dF('"+encodeTxt(document.forms['fa'].f2.value)+"')<"+"/script>";
+}
+
+
+</script>
+
+</body>
+</html>
