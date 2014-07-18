@@ -1,0 +1,4 @@
+0x88
+====
+
+0x88 exploit pack Decoded
