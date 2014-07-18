@@ -1,4 +1,24 @@
-0x88
-====
+0x88 Exploit Pack
+===================
 
-0x88 exploit pack Decoded
+0x88 exploit pack Decoded it was encoded in Zendguard so I have decoded it and shared for educational purposes. 
+
+The Pack includes:
+~ Jpg + chm Exploit
+~ JRL Exploit
+~ ActivX Exploit
+~ ActivX2 Exploit
+~ XMLHTTP Exploit
+~ XHTA Exploit
+~ BIN-HEX Exploit
+~ XML Exploit
+~ PPP 4 Exploit
+~ WScript Exploit
+~. ANI Exploit
+~ IFRAME Tag Overflow Exploit
+~ Blnmgr.dll COM Object Remote Exploit
+~ Msdds.dll Remote Code Execution Exploit
+~ DHTML Object Memory Corruption Exploit
+~ Javaprxy.dll Object Remote Exploit
++ Additional modules that can be easily connected (LZ SP2 and Cmd)
++ Daunloder with injection, into explorer.exe and weighing 1.8 Kb
