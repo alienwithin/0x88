@@ -23,7 +23,7 @@ The Pack includes:
 - Additional modules that can be easily connected (LZ SP2 and Cmd)
 - Downloader with injection, into explorer.exe and weighing 1.8 Kb
 
-I do not own this program nor did I develop it but it is well written and would be good for educational purposes therefore i decoded the original program to give this bit to aid anyone keen on writing their own exploit pack in the near future. 
+I do not own this program nor did I develop it it was originally done by : 0x88 but it is well written and would be good for educational purposes therefore i decoded the original program to give this bit to aid anyone keen on writing their own exploit pack in the near future. 
 
 For usage and all review: 
 https://github.com/alienwithin/0x88/wiki
