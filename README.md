@@ -22,3 +22,5 @@ The Pack includes:
 ~ Javaprxy.dll Object Remote Exploit
 + Additional modules that can be easily connected (LZ SP2 and Cmd)
 + Daunloder with injection, into explorer.exe and weighing 1.8 Kb
+
+I do not own this program nor did I develop it but it is well written and would be good for educational purposes therefore i decoded the original program to give this bit to aid anyone keen on writing their own exploit pack in the near future. 
