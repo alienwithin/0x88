@@ -1,12 +1,11 @@
 <?php
-/*********************/
-/*                   */
-/*  Dezend for PHP5  */
-/*         NWS       */
-/*      Nulled.WS    */
-/*                   */
-/*********************/
-
+/************************/
+/*                      */
+/*Dezended By Martian   */
+/*munir.skilledsoft.com */
+/*                      */
+/*                      */
+/************************/
 $browser = array( "Wget", "EmailSiphon", "WebZIP", "MSProxy/2.0", "EmailWolf", "webbandit", "MS FrontPage" );
 $punish = 0;
 while ( list( $key, $val ) = each( $browser ) )
