@@ -1,11 +1,11 @@
 <?php
-/*********************/
-/*                   */
-/*  Dezend for PHP5  */
-/*         NWS       */
-/*      Nulled.WS    */
-/*                   */
-/*********************/
+/************************/
+/*                      */
+/*Dezended By Martian   */
+/*munir.skilledsoft.com */
+/*                      */
+/*                      */
+/************************/
 
 function encrypt( $content )
 {
