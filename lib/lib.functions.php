@@ -6,6 +6,7 @@
 /*                      */
 /*                      */
 /************************/
+error_reporting(0);
 function redirect( $url )
 {
     if ( defined( "SID" ) && constant( "SID" ) )
