@@ -27,3 +27,6 @@ I do not own this program nor did I develop it it was originally done by : 0x88 
 
 For usage and all review: 
 https://github.com/alienwithin/0x88/wiki
+
+Username:admin
+Password:admin
