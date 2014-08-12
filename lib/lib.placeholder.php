@@ -6,6 +6,7 @@
 /*                      */
 /*                      */
 /************************/
+error_reporting(0);
 function sql_compile_placeholder( $tmpl )
 {
     $compiled = array( );
@@ -77,6 +78,7 @@ function sql_placeholder( )
             {
                 $repl = "UNKNOWN_CONSTANT_".$key;
             }
+        }
             else if ( isset( $args[$key] ) )
             {
                 $repl = "UNKNOWN_PLACEHOLDER_".$key;
@@ -137,6 +139,6 @@ function sql_placeholder( )
     }
     $out .= substr( $tmpl, $p );
     return $out;
-}
+
 
 ?>
