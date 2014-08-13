@@ -48,7 +48,7 @@ function encrypt( $content )
     $fi = ",p=0,s=0,w=0,t=Array(".$tbl.")";
     $f = "w|=(t[x.charCodeAt(p++)-".$i_min."])<<s;";
     $f .= "if(s){r+=String.fromCharCode(".$xor."^w&255);w>>=8;s-=2}else{s=6}";
-    $r = "<script language=JavaScript>";
+    $r = "<script type=\"text/javascript\">";
     $r .= "function dc(x){";
     $r .= "var l=x.length,b=1024,i,j,r".$fi.";";
     $r .= "for(j=Math.ceil(l/b);j>0;j--){r='';for(i=Math.min(l,b);i>0;i--,l--){".$f."}document.write(r)}";

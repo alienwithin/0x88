@@ -10,7 +10,7 @@
 include( "inc.config.php" );
 include( "lib/lib.placeholder.php" );
 include( "lib/block.php" );
-include( "lib/crypt.php" );
+//include( "lib/crypt.php" );
 if ( !mysql_connect( $db_host, $db_user, $db_pass ) )
 {
     exit( "Couldn't connect to db!" );
@@ -27,7 +27,7 @@ if ( 0 < $num )
 {
     $sql = "UPDATE tp_hits set total = total + 1";
     mysql_query( $sql );
-    echo "<center><b>You IP is blocked!!!</b></center><script language=javascript src='lib/close.js'></script>";
+    echo "<center><b>You IP is blocked!!!</b></center><script type=\"text/javascript\" src=\"lib/close.js\"></script>";
     exit( );
 }
 $user_agent = getenv( "HTTP_USER_AGENT" );

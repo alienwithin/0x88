@@ -31,7 +31,7 @@ for ( ; $i < $total_columns; ++$i )
 {
     echo "\r\n\t\t<td valign=\"top\" width=\"";
     echo floor( 100 / $total_columns );
-    echo "%\">\r\r\n\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" width=\"200\" border=\"1\" align=\"center\" bordercolor=\"#7AA0B8\" bordercolorlight=\"black\" bordercolordark=\"white\">\r\r\n\t\t\t\t<tr>\r\r\n\t\t\t\t\t<td align=\"center\" class=\"pagetitle\" bgcolor=\"#103056\" colspan=\"3\"><b>Статистика по языкам</b></td>\r\r\n\t\t\t\t</tr>\r\r\n\t\t\t\t";
+    echo "%\">\r\r\n\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" width=\"200\" border=\"1\" align=\"center\" bordercolor=\"#7AA0B8\" bordercolorlight=\"black\" bordercolordark=\"white\">\r\r\n\t\t\t\t<tr>\r\r\n\t\t\t\t\t<td align=\"center\" class=\"pagetitle\" bgcolor=\"#103056\" colspan=\"3\"><b>Statistics on languages</b></td>\r\r\n\t\t\t\t</tr>\r\r\n\t\t\t\t";
     $j = $rows_per_column * $i;
     for ( ; $j < $rows_per_column * ( $i + 1 ) && isset( $LangStat[$j] ); ++$j )
     {
@@ -47,5 +47,5 @@ for ( ; $i < $total_columns; ++$i )
     }
     echo "\r\n\t\t\t</table>\r\r\n\t\t</td>\r\r\n\t\t";
 }
-echo "\r\n\t</tr>\r\r\n</table>\r</td></tr><tr><td align=\"center\" class=\"pagetitle\" bgcolor=\"#000000\"><a href=\"http://xshop.in\"><font color=\"snow\">Created by&nbsp;<b>0x88</b>&nbsp;(ICQ 92777755)</a></font></td></tr></table></body></html>\r\r\n";
+echo "\r\n\t</tr>\r\r\n</table>\r</td></tr><tr><td align=\"center\" class=\"pagetitle\" bgcolor=\"#000000\"><a href=\"http://munir.skilledsoft.com\"><font color=\"snow\">Recoded By by&nbsp;<b>Alienwithin</b>&nbsp; || Original Coder's(ICQ 92777755)</a></font></td></tr></table></body></html>\r\r\n";
 ?>

